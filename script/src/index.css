@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  --input-width: 200px;
+}
+
+#title {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+#main-form {
+  text-align: center;
+}
+
+#reset-btn {
+  border: 1px solid black;
+  margin-bottom: 5px;
+  width: var(--input-width);
+}
+
+.container {
+  display: grid;
+  margin: 0 auto;
+  border: 1px solid black;
+  justify-items: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.square {
+  background-color: white;
+}
+
+input {
+  width: var(--input-width);
+  text-align: center;
+}
+
+input[type="text"] {
+  border: 1px solid black;
+}
